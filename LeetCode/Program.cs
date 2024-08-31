@@ -1,5 +1,10 @@
 ﻿using LeetCode;
 
-Solution s = new Solution();
-s.OddString(new string[] {"adc", "wzy", "abc"});
-Console.WriteLine(s.OddString(new string[] { "adc", "wzy", "abc" }));
+TwoSums s = new TwoSums();
+
+var test = s.TwoSum([2, 7, 11, 15], 22);
+
+foreach(var number in test)
+{
+    Console.WriteLine(number);
+}
